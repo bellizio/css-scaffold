@@ -3,8 +3,8 @@
 }
 
 .nav-list {
-  @extend .list--unstyled;
-  @extend .list--inline;
+  @include list(unstyled);
+  @include list(inline);
 
   @include element('item') {
 
