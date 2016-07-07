@@ -1,0 +1,20 @@
+.app-nav {
+
+}
+
+.nav-list {
+  @extend .list--unstyled;
+  @extend .list--inline;
+
+  @include element('item') {
+
+    a {
+
+      &:hover,
+      &:active,
+      &:focus {
+
+      }
+    }
+  }
+}
