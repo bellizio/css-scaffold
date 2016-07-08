@@ -22,8 +22,7 @@ html {
  */
 
 body {
-  color: palette(grey, dark);
-  display: flex;
+  color: $black;
   font-family: $base-font-family;
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
