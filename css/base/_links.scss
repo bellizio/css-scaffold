@@ -13,20 +13,20 @@ a {
   text-decoration: none;
   transition: color 0.1s linear;
   -webkit-text-decoration-skip: objects; /* 2 */
-}
 
-/**
- * Remove the outline on focused links when they are also active or hovered
- * in all browsers (opinionated).
- */
+  /**
+   * Remove the outline on focused links when they are also active or hovered
+   * in all browsers (opinionated).
+   */
 
-a:active,
-a:hover {
-  outline-width: 0;
-}
+  &:active,
+  &:hover {
+    outline-width: 0;
+  }
 
-&:active,
-&:focus,
-&:hover {
-  text-decoration: underline;
+  &:active,
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+  }
 }
