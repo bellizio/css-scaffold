@@ -39,15 +39,18 @@
 
   &:hover,
   &:focus {
-
+    background-color: darken($bg-color, 10%);
+    color: $color;
   }
 
   &:focus {
-
+    box-shadow: 0 0 3px rgba(palette(grey, dark), .5);
+    outline: none;
   }
 
   &:active {
-
+    background-color: darken($bg-color, 20%);
+    color: $color;
   }
 }
 
